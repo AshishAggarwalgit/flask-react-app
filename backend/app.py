@@ -30,7 +30,7 @@ todo_id = 1
 
 # Get all todos
 
-# @-> this is the decorator which api with function
+# @-> this is the decorator which connect api with function
 # app.route we use to create the route.
 @app.route("/todos", methods=["GET"])
 def get_todos():
