@@ -14,7 +14,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # enable the cors for the app
-# allow backend to access the backend api's
+# allow frontend to access the backend api's
 CORS(app)
 
 # In-memory todo list
